@@ -17,7 +17,7 @@ namespace Final_Project_TIC_IPI201_C2_F24_eman_117001
        
         // 1. تعريف الكلاينت والمفتاح في أعلى الكلاس ليكون متاحاً لكل الدوال
         private static readonly HttpClient client = new HttpClient();
-        private string K;
+        private string ApiKey = "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;
         // حفظ المحادثة
         private List<object> conversationHistory = new List<object>();
         public chat()
